@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Training</title>
+</head>
+<body>
+    <a href="#bottomofpage">jump to bottom </a>
+   <h3 id="topofpage">Headings</h3>
+   
+    <br>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <h3>Paragraph</h3>
+    <br>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph</p>
+    <p>Nombrado en honor de la antigua provincia 
+        japonesa de Yamato, el barco fue pue
+        sto en grada el 4 de noviembre de 1937
+         y entregado formalmente una semana des
+         pués del ataque japonés a Pearl Harbor en 1941. 
+         El Yamato fue diseñado para hacer frente a un 
+         buque de similares características artilleras o v
+         arias unidades menores de la Armada de los Estados
+          Unidos, el principal rival marítimo del Imperio 
+          del Japón en el Pacífico. Sin embargo,</p>
+
+
+          <h1>This is my Heading</h1>
+          <hr>
+          <p>This is my paragraph</p>
+
+
+          <h3>Line Breaks</h3>
+          <br>
+          <p>This is <br> Paragraph <br> with Line breaks</p>
+
+          <br>
+          <h3>pre Tag</h3>
+          <br>
+          <pre>
+                Tuje Dekha to ye Jaana Sanam
+                Pyaar hota hai Dewanna Sanam
+                ab yha se kha jaye hum
+
+          </pre>
+
+          <br>
+          <h3>pre Tag</h3>
+          <br>
+          <h1 style="background-color: powderblue;">This is a heading</h1>
+          <p style="background-color: tomato;">This ia a Paragraph</p>
+          <br>
+          <h3>HTML Styles : Text Color</h3>
+          <br>
+          <h1 style="color: blue;">This is a heading</h1>
+          <p style="color: gold;">This is a Paragraph</p>
+          <br>
+          <h1 style="font-family: Verdana;">This is a Heading</h1>
+          <p style="font-family: 'Courier New';">This is a Paragraph</p>
+          <br>
+          <h3>HTML Styles : Text Size</h3>
+          <br>
+          <h1 style="font-size: 300%;">This is a Heading</h1>
+          <p style="font-size: 200%;">This is a Paragraph</p>
+          <br>
+          <h1 style="text-align:center">This is a Heading </h1>
+          <p style="text-align: center;">This ia a paragraph</p>
+          <br>
+          <h3>HTML Text formatting : Text Size</h3>
+          <br>
+          <b>This Text is Bold</b>
+          <strong>This Text is important!</strong>
+          <br>
+          <i>This Text is Italic</i>
+          <br>
+          <em>This text is emphasized</em>
+          <small>This is some small text.</small>
+          <p>Dont forget to buy <mark>milk</mark> </p>
+          <p>My favourite color is <del>blue</del> <ins>Red</ins>.</p>
+          <p>This is <sub>subscipted</sub> text</p>
+          <p>This is <sup>superscripted</sup> text</p>
+          <!-- <H1>jbvjbj</H1> -->
+          <br>
+          <h3>Colors</h3>
+          <br>
+          <h1 style="background-color:rgb(0, 0, 255);">rgb(0,0,255)</h1>
+          <h1 style="background-color:rgb(0, 255, 0);">rgb(0,255,0)</h1>
+          <h1 style="background-color:rgb(255, 0, 0);">rgb(255,0,0)</h1>
+          <h1 style="background-color:rgb(255, 255, 255);">rgb(255,255,255)</h1>
+          <h1 style="background-color:rgb(0, 0, 0);">rgb(0,0,0)</h1>
+          <br>
+          <h3>HyperLinks</h3>
+          <br>
+          <a href="https://www.google.com" target="_blank">Open google</a>
+          <br>
+          <a href="excercise1.html" target="_blank">One</a>
+          <br>
+          <br>
+          <a href="https://www.google.com" target="_blank">
+          <img src="smiley.jpg" alt="smiley image"></a>
+          <br>
+
+          <h3>Buttons</h3>
+          <button onclick="document.location='https://www.google.com'">
+            Open google</button>
+            <br>
+            <br>
+            <h3>HyperLink Bookmark</h3>
+            <a href="#topofpage">Jump to top of page</a>
+            <br>
+            <h3 id="bottomofpage">Headings</h3>
+            <br>
+            <br>
+            <table border="1" style="width: 100%;">
+                <tr>
+                    <th>Employee Id</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                <td>101</td>
+                <td>Abhishek Kamble</td>
+                <td>25000</td>
+                </tr>
+
+            </table>
+            <br>
+            <h3>Table2</h3>
+            <br>
+            <table border="1" style="width: 100%;">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Contact Number</th>
+                   
+                </tr>
+                <tr>
+                <td>Bill Gates</td>
+                <td>093373649775</td>
+                <td>9975619553</td>
+                </tr>
+
+            </table>
+            <br>
+            <!-- ----------------------------------------------------------------------------------------- -->
+            <h3>Table3</h3>
+            <table border="1" style="width: 100%;">
+                <tr>
+                   
+                    <th>Name</th>
+                    <td>Bill Gates</th>
+                   
+                </tr>
+                <tr>
+                    <th rowspan="2">Contact Number</th>
+               
+                <td>09373649885</td>
+               
+                </tr>
+                <tr>
+                    <td>124545635</td>
+                </tr>
+
+            </table>
+            <br>
+            <!-- -------------------------------------------------------- -->
+<br>
+<br>
+        <h3>Task Table </h3>
+            <table border="1" style="width: 100%;">
+                <tr>
+                    <th colspan="4">STUDENT & EMPLOYEE DATA LIST</th>
+                    <tr>
+                        <th colspan="2">STUDENT DATA</th>
+                        <th colspan="2">EMPLOYEE DATA</th>
+                        <tr>
+                            <th>NAME</th>
+                            <th>CLASS</th>
+                            <th>NAME</th>
+                            <th>SALARY</th>
+                        </tr>
+                        <tr>
+                            <td>RAVI</td>
+                            <td>IX</td>
+                            <td>SRINIVASA RAO</td>
+                            <td rowspan="2">20,000</td>
+                        </tr>
+                        <tr>
+                            <td>GANESH</td>
+                            <td rowspan="2">VII</td>
+                            <td>RAMA RAO</td>
+                        </tr>
+                        <tr>
+                            <td>VIJAY</td>
+                            <td>CHALAPATHI RAO</td>
+                            <td>18,500</td>
+                        </tr>
+                        
+                        
+                    </tr>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <h3>Order List</h3>
+            <br>
+            <ol>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>milk</li>
+            </ol>
+            <br>
+
+            <h3>UnOrdered List</h3>
+            <ul>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>milk</li>
+            </ul>
+
+            <br>
+            <h3>Emojis</h3>
+            <br>
+            <p style="font-size: 48px">&#128512; <br> &#128516;
+                <br> &#128525;
+                <br> &#128151;
+                <br> &#128540;
+            </p>
+            <br>
+            <h3>Forms</h3>
+            <form>
+                <label>FIRST NAME</label>
+                <input type="text" name="fname">
+                <br><br>
+                <label>LAST Name</label>
+                <input type="text" name="lname">
+                <br><br>
+                <label>PASSWORD</label>
+                <input type="password" name="userpassword">
+                <br><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Female">
+                <label>Female</label>
+                <input type="radio" name="gender" value="Male">
+                <label>Male</label>
+                <br><br>
+                <label>color</label>
+                <input type="color" name="favcolor">
+                <br><br>
+                <label> Birthdate</label>
+                <input type="date" name="Birthdate">
+                <br><br>
+                <label>Birthdate and Time</label>
+                <input type="datetime-local" name="birthdatetime">
+                <br><br>
+                <label>Email</label>
+                <input type="email" name="usermail">
+                <br><br>
+                <label>Upload Resume</label>
+                <input type="file" name="resume">
+                <br><br>
+                <label>Birthday Month</label>
+                <input type="momth" name="birthdaymonth">
+                <br><br>
+                <label>Quantity(1-5)</label>
+                <input type="number" name="quantity" min="1" max="5">
+                <br><br>
+                <label>Cars</label>
+                <select name="cars">
+                <option value="Nano">Tata Nano</option>
+                <option value="Maruti 800">Maruti 800</option>
+                <option value="Thar">Mahindra Thar 4*4</option>
+            </select>
+            <input type="submit" value="save">
+
+            </form>
+            <br>
+            <h3>Multimedia controls</h3>
+            <video controls>
+                <source src="" type="video/mp4">
+            </video>
+            <br><br>
+            <iframe width="420" height="315"src="" frameborder="0"></iframe>
+
+
+
+
+
+</body>
+</html>
