@@ -76,7 +76,18 @@
 
 .section-title{
     color: black;
+    text-align: center;
+    
+}
 
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+ 
 }
 .main-nav__item a:hover,
 .main-nav__item a:active {
@@ -88,5 +99,116 @@
     color:#ff1b68;
     background: white;
     border: none;
+}
+.plan--highlighted{
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 10px 5px 5px grey;
+   
+}
+.plan__annotation {
+    background: whitesmoke;
+    padding: 8px;
+    box-shadow:10px 5px 5px grey ;
+    color:#19b84c;
+    border-radius: 10px;
+    
+    
+}
+.plan__features{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.plan__feature{
+    padding: 10px 0px;
+}
+.plan__title{
+    color: #0e4f1f;
+}
+
+.plan__price{
+    color: darkgray;
+}
+.plan--highlighted .plan__price{
+    color: #0e4f1f;
+}
+.plan--highlighted .plan__title{
+    color: white;
+}
+.button {
+    background: darkgreen;
+    color: white;
+   padding: 8px;
+   border: 3px solid green;
+   border-radius: 8px;
+   font-weight: bold;
+   cursor: pointer;
+   font-family: Courier;
+   
+
+}
+#key-features {
+    background: #ff1b68;
+    padding: 20px;
+}
+#key-features.section-title{
+    color: white;
+}
+.key-feature__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.key-feature {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.key-feature__description{
+    color: white;
+    font-weight: bold;
+}
+.key-feature__image{
+    border: 2px solid #424242;
+    height: 120px;
+    width: 120px;
+    background-color: #ffcede;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.button:hover,
+.button:active{
+    background: white;
+    color: green;
+
+}
+.main-footer{
+    background: black;
+    padding: 10px;
+
+}
+.main-footer__links .main-footer__link{
+    display: inline-block;
+    
+    }
+.main-footer__links{
+    text-align: center;
+    margin: 0;
+     
+}
+.main-footer__link{
+    padding: 10px;
+    list-style: none;
+}
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
 }
 
