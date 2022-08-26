@@ -1,0 +1,92 @@
+ /*Rule 
+        Selector*/
+        *{
+            box-sizing: border-box;
+        }
+        body{
+        font-family: 'montserrat',sans-serif;
+        margin: 0;
+        }
+        .main-header{
+            width: 100%;
+            background: #2ddf5c;
+            padding: 8px 16px;
+        }
+
+        .main-nav__item{
+            display: inline-block;
+            padding: 0 15px;
+           
+            
+        }
+        .main-nav__item a{
+            text-decoration: none;
+            color: #0e4f1f;
+            font-weight: bold;
+            padding: 3px 0px;
+        }
+
+        .main-nav__item_cta  a{
+            color: white;
+            background: #ff1b68;
+            padding: 5px 15px;
+            border-radius: 8px;
+        }
+
+        .main-header > div {
+            display: inline-block;
+        }
+        .main-nav {
+            display: inline-block;
+            width: 90%;
+            text-align: right;
+           
+        }
+        .main-nav__items{
+            margin: 0;
+            padding: 0;
+            list-style: none ;
+            
+
+        }
+        .main-header__brand{
+            text-decoration: none;
+            color: #0e4f1f ;
+            font-weight: bold;
+        }
+       
+
+
+        #Product-overview {
+         /* background: #ff1b68; */
+         background: url(freedom.jpg);
+         padding: 20px;
+         
+         /*margin: 20px;*/
+         width: 100%;
+          /*height: 100%;*/
+        height: 525px;
+         box-sizing: border-box;
+    }
+
+    #Product-overview h1 {
+        color: white;
+        font-family: 'Anton',sans-serif;
+    }
+
+.section-title{
+    color: black;
+
+}
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.main-nav__item_cta a:hover,
+.main-nav__item_cta a:active {
+    color:#ff1b68;
+    background: white;
+    border: none;
+}
+
